@@ -15,18 +15,36 @@
         <section>
             <h1>Familia</h1>
             <ol>
-                <h3>Jefe: {{ jefe }}</h3>
-                <h3>Mujer: {{ mujer }}</h3>
+                <h3>Jefe:</h3> 
+                    <ol>
+                        {% for elemento in jefe %} <h4>{{ elemento }}</h4> {% endfor %}
+                    </ol>
+                <h3>Mujer:</h3>
+                     <ol>
+                        {% for elemento in mujer %} <h4>{{ elemento }}</h4> {% endfor %}
+                     </ol>
             </ol>
         </section>
 
         <section>
             <h1>Perras de la familia</h1>
             <ol>            
-                <h3>Perra gorda: {{ perra1 }}</h3>
-                <h3>Perra inteligente: {{ perra2 }}</h3>
-                <h3>Perra miedosa: {{ perra3 }}</h3>
-                <h3>Perra mas linda: {{ perra4 }}</h3>
+                <h3>Perra gorda:</h3>
+                    <ol>
+                        {% for elemento in perra1 %} <h4>{{ elemento }}</h4> {% endfor %}
+                    </ol> 
+                <h3>Perra inteligente:</h3>
+                    <ol>
+                        {% for elemento in perra2 %} <h4>{{ elemento }}</h4> {% endfor %}
+                    </ol> 
+                <h3>Perra miedosa:</h3>
+                    <ol>
+                        {% for elemento in perra3 %} <h4>{{ elemento }}</h4> {% endfor %}
+                    </ol> 
+                <h3>Perra mas linda:</h3>
+                    <ol>
+                        {% for elemento in perra4 %} <h4>{{ elemento }}</h4> {% endfor %}
+                    </ol> 
             </ol>
         </section>
     </div>
