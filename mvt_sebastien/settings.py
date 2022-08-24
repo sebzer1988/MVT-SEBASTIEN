@@ -55,7 +55,7 @@ ROOT_URLCONF = 'mvt_sebastien.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': ['C:/Users/sebas/Desktop/MVT Sebastien Godry/mvt_sebastien/Plantillas/'],
+        'DIRS': ['C:/Users/sebas/Desktop/MVT Sebastien Godry/mvt_sebastien/'],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
